@@ -1,0 +1,33 @@
+{
+  "name": "real-time-communication-with-socket-io-samuelodusanwo",
+  "version": "1.0.0",
+  "description": "This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-samuelodusanwo.git"
+  },
+  "keywords": [],
+  "author": "Samuel Odusanwo",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-samuelodusanwo/issues"
+  },
+  "homepage": "https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-samuelodusanwo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "moment": "^2.30.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
