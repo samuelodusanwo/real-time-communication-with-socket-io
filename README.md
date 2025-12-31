@@ -54,30 +54,6 @@ This project showcases how to design and implement **real-time systems** with We
 
 ---
 
-## 📂 Project Structure
-socketio-chat/
-├── client/ # React front-end
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── context/ # Global state management
-│ │ ├── hooks/ # Custom hooks
-│ │ ├── pages/ # Page-level components
-│ │ ├── socket/ # Socket.io client setup
-│ │ └── App.jsx # Root component
-│ └── package.json
-├── server/ # Node.js back-end
-│ ├── config/ # Environment & app configuration
-│ ├── controllers/ # Socket event handlers
-│ ├── models/ # Data models
-│ ├── socket/ # Socket.io server logic
-│ ├── utils/ # Helper utilities
-│ ├── server.js # Server entry point
-│ └── package.json
-└── README.md
-
----
-
 ## ⚙️ Getting Started
 
 ### Prerequisites
